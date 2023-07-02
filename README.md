@@ -14,11 +14,12 @@ This repository is created to demonstrate a memory leak issue observed in a Reac
 
 To set up the application and reproduce the memory leak issue, follow these steps:
 
-1. Start the application with the command: `yarn start`
-2. Fire up your emulator.
-3. Within the application, navigate to the home screen.
-4. Interact with different tabs and allow notifications from the LeakCanary app.
-5. Navigate to a different screen, return back, and switch between tabs.
+1. Start the application with the command: `yarn install` then `yarn start`
+2. Fire up your Android emulator and run the app.
+3. Navigate to the home screen.
+4. Interact with different tabs
+5. Allow notifications from the LeakCanary app.
+6. Navigate to a different screen, return back, and switch between tabs and screens.
 
 After these steps, you should start receiving memory leak notifications from the LeakCanary app. Below is an example:
 
