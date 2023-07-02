@@ -16,7 +16,7 @@ const Home = ({route}) => {
   return (
     <SafeAreaView style={styles.safeAreaView}>
       <ScrollView
-        contentContainerStyle={{flexGrow: 1}}
+        contentContainerStyle={{flexGrow: 1, alignItems:'center',justifyContent:'center'}}
         keyboardShouldPersistTaps="always">
         <TouchableOpacity onPress={()=> navigation.navigate('Screen')}>
           <Text>Go Screen 1</Text>

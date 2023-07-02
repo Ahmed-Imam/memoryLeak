@@ -17,7 +17,7 @@ const Auth = ({route}) => {
   return (
     <SafeAreaView style={styles.safeAreaView}>
       <ScrollView
-        contentContainerStyle={{flexGrow: 1}}
+        contentContainerStyle={{flexGrow: 1, alignItems:'center',justifyContent:'center'}}
         keyboardShouldPersistTaps="always">
         <TouchableOpacity onPress={()=> navigation.navigate('App')}>
           <Text>Go Home</Text>
